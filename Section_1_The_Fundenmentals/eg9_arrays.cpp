@@ -22,7 +22,7 @@ void eg_1_9(){
     //There is no way to assign the size of the array as a variable
 }
 
-int main(){
-    eg_1_9();
-    return 0;
-}
+//int main(){
+//    eg_1_9();
+//    return 0;
+//}

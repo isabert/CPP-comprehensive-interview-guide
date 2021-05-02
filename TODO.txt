@@ -1,10 +1,18 @@
 Section_1:
     an expandion to the current 1.9array section
+    an char array section
+    an default parameter section:
+        void func(int a, int b=0, int c =10);       OK
+        void func(int a=0, int b=0, int c =10);     OK
+        //params with default values mush be behind all params with no default values
+        void func(int a=0, int b, int c);           NOT OK
+
 Section_3:
     do while loops
+
 Section_5: cpp_algorithms
     (the entire thing)
-Section_6 class introduction:
+Section_7: class introduction:
     int a{}; // another method of init
 
 
@@ -13,6 +21,10 @@ Notes:
 there are no difference between (&&, and)
 there is no difference between (||, or)
 there is a differece between(&&,&)
+
+int &a      VS     &a
+
+
 
 <assert.h>
 get entire line cin...
