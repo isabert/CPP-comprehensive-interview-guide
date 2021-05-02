@@ -3,7 +3,7 @@
 //
 #include<iostream>
 
-int main(){
+void eg1_2(){
     std::cout<<"data type : int"<<std::endl;
     std::cout<<"ints are printed like they are entered! ";
     std::cout<<"But be careful, sometimes they would overflow!"<<std::endl;
@@ -46,7 +46,6 @@ int main(){
     std::cout<<"datatype: string"<<std::endl;
     std::cout<<"In strings, ' doesn't need special treatment\\"<<std::endl;
     std::cout<<"but \\ and \" does"<<std::endl;
-    return 0;
 }
 
 
