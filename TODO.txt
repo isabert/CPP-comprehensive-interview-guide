@@ -13,6 +13,8 @@ there are no difference between (&&, and)
 there is no difference between (||, or)
 there is a differece between(&&,&)
 
+<assert.h>
+
 vector
 hashlist/hashmap
 stack
