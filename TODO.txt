@@ -1,5 +1,5 @@
 Section_1:
-    array(see 3.1)
+    an expandion to the current 1.9array section
 Section_3:
     do while loops
 Section_5: cpp_algorithms
