@@ -21,7 +21,7 @@ void eg_2_4_1(){
 
 
 
-int main(){
-    eg_2_4_1();
-    return 0;
-}
+//int main(){
+//    eg_2_4_1();
+//    return 0;
+//}
