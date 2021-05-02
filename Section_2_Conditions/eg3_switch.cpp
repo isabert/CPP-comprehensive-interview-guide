@@ -44,8 +44,8 @@ int eg2_3_2(){
     }
 }
 
-int main(){
-    eg2_3_1();
-    eg2_3_2():
-    return 0;
-}
+//int main(){
+//    eg2_3_1();
+//    eg2_3_2();
+//    return 0;
+//}

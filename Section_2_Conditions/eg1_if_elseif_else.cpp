@@ -4,23 +4,29 @@ void eg2_1(){
     int x = 3;
 
     if(x<4){
-        cout<<x<<" is smaller than 4";
+        cout<<x<<" is smaller than 4"<<endl;
     }
     else if(x<6){
         //imples !(x<4) and x<6
         //with simplifies to 4<=x<6
-        cout<<x<<" is smaller than 6";
+        cout<<x<<" is smaller than 6"<<endl;
     }
     else if(x<7){
         //imples !(x<4) and !(x<6) and x<7
         //with simplifies to 6<=x<7
-        cout<<x<<" is smaller than 7";
+        cout<<x<<" is smaller than 7"<<endl;
     }
     else{
         //imples !(x<4) and !(x<6) and !(x<7)
         //with simplifies to x>=7
-        cout<<x<<" is greater or equal to 7";
+        cout<<x<<" is greater or equal to 7"<<endl;
     }
+
+
+    if(x!=4){
+        cout<<"IS NOT 4"<<endl;
+    }
+
 }
 
 
