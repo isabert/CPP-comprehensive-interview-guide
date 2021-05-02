@@ -36,6 +36,16 @@ int main(){
     std::cout<<"if you put negative -15 for unsighed long long,";
     std::cout<<e<<" is the result."<<std::endl;
     std::cout<<std::endl;
+
+    std::cout<<"datatype: char"<<std::endl;
+    std::cout<<"double quote in char doesn't need special treatment(\\)"<<std::endl;
+    std::cout<<'"'<<std::endl;
+    std::cout<<"however, \\  and ' does"<<std::endl;
+    std::cout<<'\\'<<"  "<<'\''<<std::endl;
+
+    std::cout<<"datatype: string"<<std::endl;
+    std::cout<<"In strings, ' doesn't need special treatment\\"<<std::endl;
+    std::cout<<"but \\ and \" does"<<std::endl;
     return 0;
 }
 
