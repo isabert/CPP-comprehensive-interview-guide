@@ -3,5 +3,13 @@ Section_1:
 Section_3:
     do while loops
 
-Section_4:
+Section_X class:
     int a{}; // another method of init
+
+
+
+
+there are no difference between (&&, and)
+there is no difference between (||, or)
+
+there is a differece between(&&,&)
