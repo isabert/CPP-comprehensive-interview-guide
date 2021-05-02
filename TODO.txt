@@ -8,8 +8,17 @@ Section_X class:
 
 
 
-
+Notes:
 there are no difference between (&&, and)
 there is no difference between (||, or)
-
 there is a differece between(&&,&)
+
+vector
+hashlist/hashmap
+stack
+queue
+heap
+various string operations
+passing information(array, number, *, &) for dfs bfs
+passing information for recursion?
+singly linkedlist
