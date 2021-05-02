@@ -2,7 +2,7 @@
 #include <assert.h>
 using namespace std;
 
-void eg_1_4_1(){
+void eg_1_7_1(){
     ////////////////////1 byte = 8 bits
     //The size of short is AT LEAST 2 bytes(most common)
     assert(sizeof(short) >= 2);
@@ -18,6 +18,6 @@ void eg_1_4_1(){
 }
 
 //int main(){
-//    eg_1_4_1();
+//    eg_1_7_1();
 //    return 0;
 //}
