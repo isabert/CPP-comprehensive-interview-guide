@@ -13,8 +13,9 @@ Section_3:
 Section_5: cpp_algorithms
     (the entire thing)
 Section_7: class introduction:
-    int a{}; // another method of init
-
+    int a{}; // another method of init, including dynamic arr, etc...
+Section X: vector/string/whatever
+    dynamic allocation(new, delete)
 
 
 Notes:
@@ -23,6 +24,7 @@ there is no difference between (||, or)
 there is a differece between(&&,&)
 
 int &a      VS     &a
+int *p_a    VS     *p_a
 
 
 

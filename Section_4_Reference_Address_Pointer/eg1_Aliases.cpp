@@ -17,7 +17,7 @@ void eg_4_1(){
     cout<<&b<<endl;
 }
 
-int main(){
-    eg_4_1();
-    return 0;
-}
+//int main(){
+//    eg_4_1();
+//    return 0;
+//}
