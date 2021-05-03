@@ -20,8 +20,8 @@ Section_3:
 Section_X: cpp_algorithms
     (the entire thing)
     linked_list
-Section_7: class introduction:
-    int a{}; // another method of init, including dynamic arr, etc...
+Section_6: class introduction:
+    int a{}; // another method of init, including dynamic arr,struct, etc...
 Section X: vector/string/whatever
     dynamic allocation(new, delete)
 
