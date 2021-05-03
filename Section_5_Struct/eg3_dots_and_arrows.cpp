@@ -46,6 +46,11 @@ void eg_5_3(){
     cout<<tri->area()<<endl;
     cout<<triing.area()<<endl;
     cout<<tri_again->area()<<endl;
+
+    //releasing memory
+    delete tri;
+    tri=nullptr;
+    tri_again=nullptr;
 }
 
 //int main(){

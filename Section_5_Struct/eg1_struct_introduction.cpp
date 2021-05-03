@@ -15,10 +15,10 @@ void eg_5_1(){
     struct this_struct a;
     a.key =1;
     a.value = 1;
-    //can not assign a.arr = {4}, doesn't work
+    /// not assign a.arr = {4}, doesn't work, pobably because default constructor
     a.arr[0] = 4;
 
-    /////method2: initialize as "arrays"
+    /////method2: initialize as objects
     //DO NOT change the order .key, .value, .arr.
     struct this_struct b = {.key = 2, .value = 4, .arr={5}};
     ///this  also works:

@@ -13,6 +13,7 @@ struct rectangle{
     int area(){
         return w*h;
     }
+    //uses default destructor
 };
 
 void eg_5_2(){
