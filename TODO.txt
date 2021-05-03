@@ -16,7 +16,7 @@ Section_2:
 Section_3:
     do while loops
 
-Section_5: cpp_algorithms
+Section_X: cpp_algorithms
     (the entire thing)
 Section_7: class introduction:
     int a{}; // another method of init, including dynamic arr, etc...
