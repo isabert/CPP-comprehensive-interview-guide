@@ -21,7 +21,7 @@ void eg_5_2(){
     cout<<a.area()<<endl;
 }
 
-int main(){
-    eg_5_2();
-    return 0;
-}
+//int main(){
+//    eg_5_2();
+//    return 0;
+//}

@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 //https://www.learncpp.com/cpp-tutorial/structs/
+
+//There has to be ; after the definition
 struct this_struct{
     //values are by default public
     int key;
@@ -19,8 +21,8 @@ void eg_5_1(){
     /////method2: initialize as "arrays"
     //DO NOT change the order .key, .value, .arr.
     struct this_struct b = {.key = 2, .value = 4, .arr={5}};
-    //This also works
-    //struct this_struct b = {2, 4, {5}};
+    ///this  also works:
+    struct this_struct b1 = {2, 4, {5}};
 
     /////method3: initialize as objects(see section 6)
     //.key, .value, .arr will always be assigned in order
