@@ -15,6 +15,8 @@ void eg_4_6(){
     arr = nullptr;
     /////END
 
+    /// Do check if the index for the dynamic array is out of bound!!!!!!
+
     /////DON'T append element to the end of the array, it doesn't work
     //The best work around is to get a bigger array and move this array's data
 }
