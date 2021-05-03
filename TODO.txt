@@ -7,6 +7,12 @@ Section_1:
         //params with default values mush be behind all params with no default values
         void func(int a=0, int b, int c);           NOT OK
 
+Section_2:
+    if else without {}
+    https://stackoverflow.com/questions/28613436/if-statements-without-brackets
+
+
+
 Section_3:
     do while loops
 
