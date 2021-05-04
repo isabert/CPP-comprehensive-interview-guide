@@ -1,5 +1,4 @@
 Section_1:
-    an expandion to the current 1.9array section
     an char array section
     an default parameter section:
         void func(int a, int b=0, int c =10);       OK
@@ -7,12 +6,11 @@ Section_1:
         //params with default values mush be behind all params with no default values
         void func(int a=0, int b, int c);           NOT OK
     getline
+    !!!!pass by pointer vs pass by reference
 
 Section_2:
     if else without {}
     https://stackoverflow.com/questions/28613436/if-statements-without-brackets
-
-
 
 Section_3:
     do while loops
@@ -21,10 +19,14 @@ Section_X: cpp_algorithms
     (the entire thing)
     linked_list
 Section_6: class introduction:
+    const in class functions:
+    bool operator== (complex_number const &cn) const;
 
-Section X: vector/string/whatever
+Section X: vector/string/heap/whatever
     dynamic allocation(new, delete)
 
+DON'T KNOW WHICH SECTION THIS BELONG TO:
+    throw and catch exceptions
 
 Notes:
 there are no difference between (&&, and)
