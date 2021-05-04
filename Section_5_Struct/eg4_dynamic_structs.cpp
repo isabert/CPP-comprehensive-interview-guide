@@ -62,7 +62,7 @@ struct new_produce{
     }
 };
 void eg_5_4(){
-    double apple_price[] = {1,98,1.90,0.99,0.66};
+    double apple_price[] = {1.98,1.90,0.99,0.66};
     struct product *apple = new product{"apple", 1, 4,apple_price};
 
     struct new_produce *apple_new = new new_produce{"apple", 1,4, apple_price};
