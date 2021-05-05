@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 
-void eg_2_1(){
+void eg_6_2(){
     complex_number *a = new complex_number{1,2};
     complex_number b = {1,2};
     a->set_real(2);
@@ -22,14 +22,14 @@ void eg_2_1(){
     cout<<d->stringnify()<<endl;
 
     //get class variable
-    cout<<d->get_next_id()<<endl;
-    cout<<b.get_next_id()<<endl;
+    cout<<d->get_count()<<endl;
+    cout<<b.get_count()<<endl;
 
     delete a;
     delete d;
 }
 
 //int main(){
-//    eg_2_1();
+//    eg_6_2();
 //    return 0;
 //}

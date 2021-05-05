@@ -1,27 +1,27 @@
 #include "eg2_class_introduction.hpp"
 #include <iostream>
 using namespace std;
-int complex_number::next_id = 0;
+int complex_number::count = 0;
 complex_number::complex_number(double real, double imaginary){
-    next_id++;
+    count++;
     this->real = real;
     this->imaginary = imaginary;
 }
 
 complex_number::complex_number(complex_number *cn){
-    next_id++;
+    count++;
     this->real = cn->real;
     this->imaginary = cn->imaginary;
 }
 
 complex_number::complex_number(complex_number &cn){
-    next_id++;
+    count++;
     this->real = cn.real;
     this->imaginary = cn.imaginary;
 }
 
 complex_number::complex_number(){
-    next_id++;
+    count++;
     this->real = 0;
     this->imaginary = 0;
 }
@@ -46,8 +46,8 @@ string complex_number::stringnify(){
     return s;
 }
 
-int complex_number::get_next_id() {
-    return complex_number::next_id;
+int complex_number::get_count() {
+    return complex_number::count;
 }
 
 complex_number* complex_number::operator+= (complex_number const &cn){

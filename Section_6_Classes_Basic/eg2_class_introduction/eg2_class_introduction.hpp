@@ -24,7 +24,7 @@ public:
     string stringnify();
 
     //access class variable:
-    int get_next_id();
+    int get_count();
 
     //sample operator overloading
     complex_number* operator+= (complex_number const &cn);
@@ -35,7 +35,7 @@ public:
 
 protected:
     //class variable
-    static int next_id;
+    static int count;
 
 private:
     //variables and functions are by default private.
