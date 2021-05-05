@@ -11,7 +11,7 @@ void eg_7_1(){
     sqr1.print_square();
 }
 
-int main(){
-    eg_7_1();
-    return 0;
-}
+//int main(){
+//    eg_7_1();
+//    return 0;
+//}
