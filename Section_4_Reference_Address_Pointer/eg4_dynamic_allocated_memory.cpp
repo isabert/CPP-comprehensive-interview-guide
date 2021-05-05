@@ -38,6 +38,10 @@ void eg_4_4(){
     delete[] p_arr2;
     p_arr2 = NULL;
     /////END SECTION
+
+    /////THE CORRECT WAY TO initialize a dynamic array with predetermined value
+    /////**********[arr_len] > the length of {5,4,3,2,1...}, then the rest will be filled in with 0**********////////
+    int* arr_dy = new int[5] {5,4,3,2,1};
 }
 
 //int main(){

@@ -12,7 +12,7 @@ void eg_7_2(){
     sqr1.print_info();
 }
 
-int main(){
-    eg_7_2();
-    return 0;
-}
+//int main(){
+//    eg_7_2();
+//    return 0;
+//}
