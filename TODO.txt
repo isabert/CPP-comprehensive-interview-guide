@@ -19,8 +19,22 @@ Section_X: cpp_algorithms
     (the entire thing)
     linked_list
 Section_6: class introduction:
-    const in class functions:
-    bool operator== (complex_number const &cn) const;
+    const in class functions: bool operator== (complex_number const &cn) const;
+
+Section_7: class advanced
+    private vs protected:
+        https://stackoverflow.com/questions/224966/what-is-the-difference-between-private-and-protected-members-of-c-classes
+
+    friend:
+        can access protected and private....
+
+    These articles:(The first one is the most important)
+        https://isocpp.org/wiki/faq/strange-inheritance
+        https://www.learncpp.com/cpp-tutorial/constructors-and-initialization-of-derived-classes/
+
+    Difference bettween extending constructor vs normal function
+        https://stackoverflow.com/questions/10177809/c-extend-inherited-functions
+
 
 Section X: vector/string/heap/whatever
     dynamic allocation(new, delete)
